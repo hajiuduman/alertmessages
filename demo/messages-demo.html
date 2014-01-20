@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Dialog - Modal confirmation</title>
+	<link rel="stylesheet" href="../../themes/base/jquery.ui.all.css">
+	<script src="../lib/jquery-1.9.1.js"></script>
+	<script src="../lib/jquery-ui.js"></script>
+	<script src="../src/msgDialog.js"></script>
+	<link rel="stylesheet" href="../css/jquery-ui.css">
+	<script>
+	$(function() {
+		$.msgDialog({
+			optionType : OPTION_TYPE.OK_CANCEL,
+			msgType : MSG_TYPES.CONFIRMATION
+		});
+	});
+	</script>
+</head>
+<body>
+
+<div id="dialog-confirm" title="Empty the recycle bin?">
+	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>These items will be permanently deleted and cannot be recovered. Are you sure?</p>
+</div>
+
+<p>Sed vel diam id libero <a href="http://example.com">rutrum convallis</a>. Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante. Etiam bibendum, enim faucibus aliquet rhoncus, arcu felis ultricies neque, sit amet auctor elit eros a lectus.</p>
+
+<div class="demo-description">
+<p>Confirm an action that may be destructive or important.  Set the <code>modal</code> option to true, and specify primary and secondary user actions with the <code>buttons</code> option.</p>
+</div>
+</body>
+</html>
