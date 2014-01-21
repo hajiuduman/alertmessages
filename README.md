@@ -7,7 +7,7 @@ Jquery Alert Messages
 
 <h4>Demo</h4>
 
-<p><a href="http://hajiuduman.github.io/alertmessages/" target="_blank">Click here</a> to see the live demo.</p>
+<p><a href="http://hajiuduman.github.io/alertmessages/index.html" target="_blank">Click here</a> to see the live demo.</p>
 
 <h4>Documentation</h4>
 
